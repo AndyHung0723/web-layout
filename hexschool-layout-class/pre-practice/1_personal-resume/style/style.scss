@@ -1,0 +1,171 @@
+@import "reset";
+
+body {
+  font-family: "SF Pro Text", "PingFang TC", sans-serif, serif;
+  line-height: 1.5;
+}
+.container {
+  margin: 0 auto;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main {
+  margin: 40px 0 24px 0;
+
+  .name {
+    font-size: 80px;
+    line-height: 1.1875;
+  }
+  .divider {
+    border: 2px solid #000;
+    margin: 24px 0;
+  }
+  .avatar {
+    display: inline-block;
+    margin: 24px 0;
+
+    img {
+      vertical-align: bottom;
+    }
+  }
+}
+
+.skill .description .list {
+  justify-content: center;
+}
+
+.experience .description .list {
+  .side-line {
+    margin-left: 32px;
+  }
+  .item {
+    margin-bottom: 32px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.footer {
+  background-color: #415165;
+
+  .info {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px 0 48px 0;
+
+    .title .en {
+      color: #fff;
+      font-weight: 500;
+    }
+    .description {
+      p {
+        display: inline-block;
+        margin-top: 16px;
+        width: 100%;
+        text-align: center;
+        
+        a {
+          display: inline-block;
+          color: #FFF;
+          text-decoration: none;
+        }
+      }
+      
+    }
+    .social {
+      margin-top: 20px;
+
+      a {
+        margin: 0 12px;
+      }
+    }
+  }
+}
+  
+
+.info {
+  margin-bottom: 72px;
+
+  .title {
+    font-size: 32px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+
+    .en {
+      font-size: 24px;
+      font-weight: 600;
+      color: #a00404;
+      text-transform: uppercase;
+      margin-left: 16px;
+    }
+  }
+  .divider {
+    border: 1px solid #000;
+    margin: 8px 0 16px 0;
+  }
+  .description {
+    font-size: 24px;
+    font-weight: 300;
+
+    ul {
+      margin-bottom: 24px;
+    }
+    .filler {
+      height: 24px;
+    }
+  }
+
+  &-bg {
+    background-color: #415165;
+    color: #fff;
+    padding: 24px 102px 51px 102px;
+
+    .title {
+      justify-content: center;
+
+      .en {
+        color: #fff;
+      }
+    }
+    .divider {
+      border: 1px solid #fff;
+    }
+    .description .list {
+      margin-top: 40px;
+    }
+  }
+}
+
+.list {
+  display: flex;
+
+  .side-line {
+    border: 1px solid #96a9c4;
+    margin: 0 24px 0 0;
+  }
+  .item-list .item {
+    margin-bottom: 20px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+    .title {
+      font-size: 24px;
+      margin-bottom: 8px;
+    }
+    .avatar {
+      margin-bottom: 8px;
+    }
+    .description {
+      max-width: 642px;
+      font-size: 20px;
+    }
+  }
+}

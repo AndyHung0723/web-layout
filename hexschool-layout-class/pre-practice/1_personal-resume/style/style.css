@@ -1,0 +1,205 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "SF Pro Text", "PingFang TC", sans-serif, serif;
+  line-height: 1.5;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main {
+  margin: 40px 0 24px 0;
+}
+.main .name {
+  font-size: 80px;
+  line-height: 1.1875;
+}
+.main .divider {
+  border: 2px solid #000;
+  margin: 24px 0;
+}
+.main .avatar {
+  display: inline-block;
+  margin: 24px 0;
+}
+.main .avatar img {
+  vertical-align: bottom;
+}
+
+.skill .description .list {
+  justify-content: center;
+}
+
+.experience .description .list .side-line {
+  margin-left: 32px;
+}
+.experience .description .list .item {
+  margin-bottom: 32px;
+}
+.experience .description .list .item:last-child {
+  margin-bottom: 0;
+}
+
+.footer {
+  background-color: #415165;
+}
+.footer .info {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 0 48px 0;
+}
+.footer .info .title .en {
+  color: #fff;
+  font-weight: 500;
+}
+.footer .info .description p {
+  display: inline-block;
+  margin-top: 16px;
+  width: 100%;
+  text-align: center;
+}
+.footer .info .description p a {
+  display: inline-block;
+  color: #FFF;
+  text-decoration: none;
+}
+.footer .info .social {
+  margin-top: 20px;
+}
+.footer .info .social a {
+  margin: 0 12px;
+}
+
+.info {
+  margin-bottom: 72px;
+}
+.info .title {
+  font-size: 32px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.info .title .en {
+  font-size: 24px;
+  font-weight: 600;
+  color: #a00404;
+  text-transform: uppercase;
+  margin-left: 16px;
+}
+.info .divider {
+  border: 1px solid #000;
+  margin: 8px 0 16px 0;
+}
+.info .description {
+  font-size: 24px;
+  font-weight: 300;
+}
+.info .description ul {
+  margin-bottom: 24px;
+}
+.info .description .filler {
+  height: 24px;
+}
+.info-bg {
+  background-color: #415165;
+  color: #fff;
+  padding: 24px 102px 51px 102px;
+}
+.info-bg .title {
+  justify-content: center;
+}
+.info-bg .title .en {
+  color: #fff;
+}
+.info-bg .divider {
+  border: 1px solid #fff;
+}
+.info-bg .description .list {
+  margin-top: 40px;
+}
+
+.list {
+  display: flex;
+}
+.list .side-line {
+  border: 1px solid #96a9c4;
+  margin: 0 24px 0 0;
+}
+.list .item-list .item {
+  margin-bottom: 20px;
+}
+.list .item-list .item:last-child {
+  margin-bottom: 0;
+}
+.list .item-list .item .title {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+.list .item-list .item .avatar {
+  margin-bottom: 8px;
+}
+.list .item-list .item .description {
+  max-width: 642px;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
