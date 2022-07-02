@@ -1,0 +1,174 @@
+body {
+  font-family: "SF Pro Text", "PingFang TC", sans-serif, serif;
+  line-height: 1.25;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+  padding: 0 42px;
+}
+.header__logo {
+  width: 250px;
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/student-week1/logo-all-dark.svg);
+  background-repeat: no-repeat;
+  text-indent: 101%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.header__logo__link {
+  display: block;
+  height: 100%;
+}
+.header__menu {
+  display: flex;
+  align-items: center;
+}
+.header__menu__item {
+  margin-left: 40px;
+}
+.header__menu__item__link,
+.header__menu__item__icon {
+  padding: 10px 20px;
+  color: #3f5d45;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__menu__item__link:hover {
+  color: #fff;
+  background-color: #3f5d45;
+}
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 42px;
+}
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.banner__image {
+  width: 100%;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+.content__menu {
+  flex-basis: 30%;
+}
+.content__menu__title {
+  padding: 16px 0;
+  font-size: 24px;
+  background-color: #3f5d45;
+  color: #fff;
+}
+.content__menu__item {
+  display: flex;
+  justify-content: center;
+}
+.content__menu__item__link {
+  width: 100%;
+  padding: 16px 0;
+  color: #3f5d45;
+  font-size: 24px;
+  text-decoration: none;
+  text-align: center;
+}
+.content__menu__item:not(.content__menu__title):hover,
+.content__menu__item--active {
+  background-color: #eaf0ed;
+}
+.content__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-basis: 70%;
+  margin-left: 20px;
+}
+.content__list__item {
+  flex-basis: 48%;
+  margin-bottom: 20px;
+}
+.content__list__item__pic {
+  position: relative;
+}
+.content__list__item__pic__image {
+  width: 100%;
+  vertical-align: bottom;
+}
+.content__list__item__pic__tag {
+  position: absolute;
+  left: 20px;
+  writing-mode: vertical-lr;
+  padding: 10px;
+  background-color: #3f5d45;
+  color: #ffffff;
+  letter-spacing: 4px;
+}
+.content__list__item__info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #3f5d45;
+  font-size: 20px;
+  height: 3rem;
+  border: 1px solid #eaf0ed;
+}
+.content__list__item__info__title,
+.content__list__item__info__price {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content__list__item__info__title {
+  flex-basis: 60%;
+  border-right: 1px solid #eaf0ed;
+}
+.content__list__item__info__price {
+  flex-basis: 40%;
+  font-weight: bold;
+}
+.content__list__item__btn {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  display: block;
+  width: 100%;
+  padding: 16px 0;
+  color: #3f5d45;
+  background-color: #eaf0ed;
+  text-align: center;
+}
+.content__list__item__btn:hover {
+  color: #FFFFFF;
+  background-color: #3f5d45;;
+}
+.content__list__pager {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.content__list__pager__item {
+  border: 1px solid #eaf0ed;
+  width: 60px;
+  height: 60px;
+  text-decoration: none;
+  color: #3f5d45;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content__list__pager__item:hover,
+.content__list__pager__item--active {
+  background-color: #3f5d45;
+  color: #FFFFFF;
+}
