@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+img {
+  vertical-align: middle;
+}
+body {
+  font-family: 'SF Pro Text', 'PingFang TC', serif;
+  line-height: 1.5;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.intro {
+  padding: 40px 0 48px;
+}
+.intro h1 {
+  font-size: 80px;
+  line-height: 1.1875;
+  border-bottom: 2px solid #000000;
+  padding-bottom: 22px;
+  margin-bottom: 48px;
+}
+.title {
+  font-size: 32px;
+  font-weight: 500;
+  border-bottom: 1px solid #000000;
+  padding-bottom: 7px;
+  margin-bottom: 16px;
+}
+.title span {
+  font-size: 24px;
+  color: #a00404;
+  font-weight: 600;
+  margin-left: 16px;
+}
+.profile {
+  margin-bottom: 64px;
+}
+.profile ul li {
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 24px;
+}
+.profile ul li:last-child {
+  margin-bottom: 0px;
+}
+.education {
+  margin-bottom: 64px;
+}
+.education ul li {
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 16px;
+}
+.education ul li:last-child {
+  margin-bottom: 0px;
+}
+.skills {
+  background-color: #415165;
+  padding: 24px 0 40px;
+  margin-bottom: 64px;
+  text-align: center;
+}
+.skills .title {
+  color: #ffffff;
+  border-color: #ffffff;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.skills .title span {
+  color: #ffffff;
+}
+.skills ul {
+  display: inline-block;
+  border-left: 1px solid #96a9c4;
+  padding-left: 24px;
+}
+.skills ul li {
+  font-size: 24px;
+  font-weight: 300;
+  color: #ffffff;
+  margin-bottom: 8px;
+  text-align: left;
+}
+.skills ul li:last-child {
+  margin-bottom: 0px;
+}
+.experience {
+  margin-bottom: 80px;
+}
+.experience ul {
+  border-left: 1px solid #96a9c4;
+  padding-left: 24px;
+  margin-left: 24px;
+}
+.experience ul li {
+  margin-bottom: 24px;
+}
+.experience ul li h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+.experience ul li p {
+  font-size: 20px;
+  font-weight: 300;
+}
+.footer {
+  background-color: #415165;
+  padding: 24px 0 40px;
+}
+.footer .title {
+  color: #ffffff;
+  text-align: center;
+  border-color: #ffffff;
+  margin-bottom: 24px;
+}
+.footer .title span {
+  color: #ffffff;
+}
+.footer ul li {
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.footer ul li:last-child {
+  margin-bottom: 0px;
+}
+.footer ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer ul .social a {
+  margin: 0 12px;
+}
