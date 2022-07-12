@@ -1,9 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-img {
-  vertical-align: middle;
-}
 body {
   font-family: 'SF Pro Text', 'PingFang TC', serif;
   line-height: 1.5;
@@ -135,6 +129,7 @@ body {
   color: #ffffff;
   text-decoration: none;
 }
-.footer ul .social a {
+.footer .social ul li {
+  display: inline-block;
   margin: 0 12px;
 }
